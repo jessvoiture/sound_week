@@ -37,10 +37,10 @@ Time,Day of Week,Sound,Vol,Method,Doing,Source
 08:45,Monday,,,,,
 09:00,Monday,Music,7,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
 09:15,Monday,Music,7,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
-09:30,Monday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
-09:45,Monday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
-10:00,Monday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
-10:15,Monday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
+09:30,Monday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
+09:45,Monday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
+10:00,Monday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
+10:15,Monday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
 10:30,Monday,Music,7,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d6
 10:45,Monday,,,,,
 11:00,Monday,,,,,
@@ -131,11 +131,11 @@ Time,Day of Week,Sound,Vol,Method,Doing,Source
 08:15,Tuesday,,,,,
 08:30,Tuesday,,,,,
 08:45,Tuesday,Music,8,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
-09:00,Tuesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
-09:15,Tuesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
-09:30,Tuesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
-09:45,Tuesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
-10:00,Tuesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
+09:00,Tuesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
+09:15,Tuesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
+09:30,Tuesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
+09:45,Tuesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
+10:00,Tuesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
 10:15,Tuesday,Music,8,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d6
 10:30,Tuesday,,,,,
 10:45,Tuesday,Music,8,Speaker,Driving,https://open.spotify.com/playlist/2MZ7iOGohaiNrSQh1sPmkW?si=6470708611484a41
@@ -230,14 +230,14 @@ Time,Day of Week,Sound,Vol,Method,Doing,Source
 09:00,Wednesday,,,,,
 09:15,Wednesday,,,,,
 09:30,Wednesday,,,,,
-09:45,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
-10:00,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
-10:15,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
-10:30,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
-10:45,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
-11:00,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
-11:15,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d6
-11:30,Wednesday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
+09:45,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
+10:00,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
+10:15,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
+10:30,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
+10:45,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
+11:00,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
+11:15,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d6
+11:30,Wednesday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
 11:45,Wednesday,,,,,
 12:00,Wednesday,,,,,
 12:15,Wednesday,,,,,
@@ -330,8 +330,8 @@ Time,Day of Week,Sound,Vol,Method,Doing,Source
 10:00,Thursday,,,,,
 10:15,Thursday,Music,7,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
 10:30,Thursday,Music,7,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
-10:45,Thursday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
-11:00,Thursday,Music,1,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
+10:45,Thursday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
+11:00,Thursday,Music,10,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
 11:15,Thursday,Music,7,Speaker,Exercise,https://open.Music.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
 11:30,Thursday,,,,,
 11:45,Thursday,,,,,
@@ -417,13 +417,13 @@ Time,Day of Week,Sound,Vol,Method,Doing,Source
 07:45,Friday,,,,,
 08:00,Friday,Youtube,4,Out loud,Watching,https://www.youtube.com/watch?v=TnGWa-kJaPw
 08:15,Friday,Youtube,4,Out loud,Watching,https://www.youtube.com/watch?v=TnGWa-kJaPw
-08:30,Friday,Music,1,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
-08:45,Friday,Music,1,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
-09:00,Friday,Music,1,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
-09:15,Friday,Music,1,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
-09:30,Friday,Music,1,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
-09:45,Friday,Music,1,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
-10:00,Friday,Music,1,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d6
+08:30,Friday,Music,10,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d0
+08:45,Friday,Music,10,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d1
+09:00,Friday,Music,10,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d2
+09:15,Friday,Music,10,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d3
+09:30,Friday,Music,10,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d4
+09:45,Friday,Music,10,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d5
+10:00,Friday,Music,10,Speaker,Exercise,https://open.spotify.com/playlist/41nlHqhbbhAb3pwT9jLH2s?si=c8219b46392440d6
 10:15,Friday,,,,,
 10:30,Friday,,,,,
 10:45,Friday,,,,,
@@ -609,8 +609,8 @@ Time,Day of Week,Sound,Vol,Method,Doing,Source
 07:45,Sunday,,,,,
 08:00,Sunday,,,,,
 08:15,Sunday,,,,,
-08:30,Sunday,Youtube,1,Out Loud,Watching,https://www.youtube.com/watch?v=yQmo3Z_xSlM
-08:45,Sunday,Youtube,1,Out Loud,Watching,https://www.youtube.com/watch?v=yQmo3Z_xSlM
+08:30,Sunday,Youtube,10,Out Loud,Watching,https://www.youtube.com/watch?v=yQmo3Z_xSlM
+08:45,Sunday,Youtube,10,Out Loud,Watching,https://www.youtube.com/watch?v=yQmo3Z_xSlM
 09:00,Sunday,,,,,
 09:15,Sunday,,,,,
 09:30,Sunday,,,,,
