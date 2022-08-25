@@ -1,0 +1,27 @@
+html {
+    background-color: #0e021f;
+}
+
+text {
+    fill: #fbf7ff;
+    font-family: sans-serif;
+}
+
+.viz {
+    float: right;
+}
+
+.word_panel {
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+h1 {
+    color: #fbf7ff;
+    font-family: serif;
+    font-size: 80;
+    font-weight: bold;
+}
+

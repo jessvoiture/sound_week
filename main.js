@@ -1,9 +1,9 @@
 const margin = { top: 20, bottom: 40, left: 80, right: 20 };
 
-const width = 1300 - margin.left - margin.right;
-const height = 500 - margin.top - margin.bottom;
+const width = 700 - margin.left - margin.right;
+const height = 700 - margin.top - margin.bottom;
 
-const padding = 0.05
+const padding = 0.15
 
 const svg = d3.select('.viz')
     .append('svg')
@@ -11,6 +11,8 @@ const svg = d3.select('.viz')
     .attr('height', height + margin.top + margin.bottom)
     .append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
+
+const graph_col = "#fbf7ff"
 
 d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/sound_patterns_real.csv?version=123", d3.autotype).then(function(data){
 
@@ -38,7 +40,7 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
     svg.append("g")
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x)
-             .ticks(d3.timeMinute.every(60))
+             .ticks(d3.timeMinute.every(180))
              .tickFormat(d3.timeFormat("%H")))
 
     // SET UP Y SCALE
@@ -53,7 +55,7 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
 
     var histogram = d3.histogram()
         .domain(x.domain())
-        .thresholds(x.ticks(48)) // 24 hr x (2 * 30 min) / hr = 48
+        .thresholds(2) // 24 hr x (2 * 30 min) / hr = 48
         .value(d => d.Vol);
 
     const maxNum = d3.max(data, function(d) { return d.Vol; });
@@ -65,6 +67,7 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
     const day_data = d3.group(data, d => d['Day of Week']);
     var keys = Array.from(day_data.keys())
     var values = Array.from(day_data.values())
+
     svg
         .selectAll("myViolin")
         .data(values)
@@ -76,7 +79,7 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
         .append("path")
         // .datum(d => d[1])    // So now we are working bin per bin
         .style("stroke", "none")
-        .style("fill","#69b3a2")
+        .style("fill", graph_col)
         .attr("d", d3.area()
             .y0(function(d, i){
                 return(yNum(-d.Vol))} )
