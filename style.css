@@ -7,21 +7,61 @@ text {
     font-family: sans-serif;
 }
 
-.viz {
-    float: right;
+.viz1 {
+    height: 700px;
 }
 
-.word_panel {
+.viz {
+    position: sticky;
+    top: 10px;
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+}
+
+
+
+.word-panel {
     float: left;
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 30%;
+    margin-left: 7%;
+    margin-top: 1.5%;
+    min-height: 1800px;
+    width: 33%;
+    font-family: serif;
+    color: #fbf7ff;
+    position: relative;
+    overflow: scroll;
 }
 
 h1 {
-    color: #fbf7ff;
-    font-family: serif;
-    font-size: 80;
+    font-size: 64px;
     font-weight: bold;
+    padding-bottom: 4%;
+    margin-bottom: 0;
 }
 
+.intro-words {
+    font-family: sans-serif;
+    line-height: 1.45;
+    opacity: .8;
+}
+
+a:link {
+    color: #fbf7ff;
+    text-decoration: wavy underline;
+}
+
+a:hover {
+    color: #fbf7ff;
+    text-decoration: underline
+}
+
+a:visited {
+    color: #fbf7ff;;
+    text-decoration: underline
+}
+
+p {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
