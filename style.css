@@ -18,8 +18,8 @@ text, .leg_text, .legend_desc, .leg-title {
     font-weight: bold;
 }
 
-.intro-words, .reader {
-    height: 100vh;
+.intro-words {
+    padding-bottom: 400px;
 }
 
 .viz {
@@ -29,6 +29,7 @@ text, .leg_text, .legend_desc, .leg-title {
     /* margin-top: 15px; */
     position: sticky;
     top: 35px;
+    height: 100%;
 }
 
 .word-panel {
