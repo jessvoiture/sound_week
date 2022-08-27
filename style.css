@@ -2,21 +2,33 @@ html {
     background-color: #0e021f;
 }
 
-text {
+text, .leg_text, .legend_desc, .leg-title {
     fill: #fbf7ff;
     font-family: sans-serif;
+    font-size: 12px;
 }
 
-.viz1 {
-    height: 700px;
+.leg-title {
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.legend_desc {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.intro-words, .reader {
+    height: 100vh;
 }
 
 .viz {
-    position: sticky;
-    top: 10px;
     width: 50%;
     float: right;
     margin-right: 5%;
+    /* margin-top: 15px; */
+    position: sticky;
+    top: 35px;
 }
 
 .word-panel {
@@ -37,10 +49,18 @@ h1 {
     margin-bottom: 0;
 }
 
-.intro-words {
+p {
+    padding-bottom: 10px;
+    font-size: 15px;
     font-family: sans-serif;
     line-height: 1.45;
     opacity: .8;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 a:link {
@@ -54,11 +74,31 @@ a:hover {
 }
 
 a:visited {
-    color: #fbf7ff;;
+    color: #fbf7ff;
     text-decoration: underline
 }
 
-p {
-    padding-bottom: 10px;
-    font-size: 15px;
+div.tooltip { 
+    position: absolute;     
+    text-align: left; 
+    max-width: 190px;          
+    height: auto;  
+    padding: 5px;       
+    font-family: Arial, Helvetica, sans-serif;   
+    background: white; 
+    /* pointer-events: none;    */
+}
+
+.tooltip_text > a:link {
+    color: #0e021f;
+}
+
+.tooltip_text > a:hover {
+    color: #0e021f;
+    text-decoration: underline
+}
+
+.tooltip_text > a:visited {
+    color: #0e021f;
+    text-decoration: underline
 }
