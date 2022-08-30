@@ -69,7 +69,7 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
         .text("hour");
     
     /* add bars to chart */
-    svg
+    let sound_bars = svg
         .selectAll("rect")
         .data(data)
         .enter()
@@ -87,10 +87,12 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
                 return x((hstop-hstart)/3600000);	//date operations return a timestamp in miliseconds, divide to convert to hours
         })
         .attr("height", barSize)
-        .attr("rx", bar_curve_decider)
-        .attr("ry", bar_curve_decider)
-        .style("fill", function(d) { return colScale(d.Medium) })
-        .style("opacity", function(d) { return d.Vol / 10})
+        // .attr("rx", bar_curve_decider)
+        // .attr("ry", bar_curve_decider)
+        .style("fill", "#fbf7ff")
+        .style("opacity", 1)
+        // .style("fill", function(d) { return colScale(d.Medium) })
+        // .style("opacity", function(d) { return d.Vol / 10})
         .on("mouseover", function(event, d) {
 
             div.transition()
@@ -123,6 +125,25 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
                 .style("opacity", "0");
         });
 
+    ScrollTrigger.create({
+        trigger: '#step1',
+        start: 'top center',
+        onEnter: color_sound,
+        markers: false,
+        id: 'color_sound'
+        });
+
+    function color_sound() {
+        sound_bars
+            .transition()
+            .duration(1000)
+            .style("fill", function(d) { console.log(colScale(d.Medium))
+                return colScale(d.Medium) })
+            .style("opacity", function(d) { return d.Vol / 10})
+            .attr("rx", bar_curve_decider)
+            .attr("ry", bar_curve_decider);
+    }
+
     function bar_curve_decider(d) {
         if (d.Method == "Earphones") {
             return 30;
@@ -133,7 +154,6 @@ d3.csv("https://raw.githubusercontent.com/jessvoiture/sound_week/main/datasets/s
         
 
 })
-
 
 /* LEGEND */
 const leg_data = [
